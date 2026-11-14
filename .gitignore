@@ -1,0 +1,26 @@
+# Tizen derleme çıktısı ve imzalı paketler (kur.sh her seferinde yeniden üretir)
+tizen/build/
+*.wgt
+
+# Sertifikalar ve anahtarlar: asla depoya girmesin
+*.p12
+*.pfx
+*.pem
+*.key
+profiles.xml
+SamsungCertificate/
+
+# Sanal kumanda eşleşme anahtarı (kumanda.js oluşturur)
+tizen/.kumanda-token
+
+# Bağımlılıklar
+node_modules/
+
+# macOS ve editör dosyaları
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Yerel araç ayarları
+.claude/
